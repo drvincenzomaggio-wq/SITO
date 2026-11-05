@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Dr. Vincenzo Maggio</title>
+    <link href="https://drvincenzomaggio-wq.github.io/SITO/feed.xml" rel="self" />
+    <link href="https://drvincenzomaggio-wq.github.io/SITO" />
+    <updated>2026-11-04T16:26:59+01:00</updated>
+    <author>
+        <name>Dr. Vincenzo Maggio</name>
+    </author>
+    <id>https://drvincenzomaggio-wq.github.io/SITO</id>
+
+    <entry>
+        <title>Prefazione. Prima che suoni il campanello</title>
+        <author>
+            <name>Dr. Vincenzo Maggio</name>
+        </author>
+        <link href="https://drvincenzomaggio-wq.github.io/SITO/amore-copre-prefazione.html"/>
+        <id>https://drvincenzomaggio-wq.github.io/SITO/amore-copre-prefazione.html</id>
+            <category term="La notte che non è un gioco"/>
+
+        <updated>2026-11-04T16:20:23+01:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Velocità: 0.8x 0.9x 1x 1.1x 1.25x 1.5x 1.75x 2x Ogni anno, negli ultimi giorni di ottobre, ricevo la stessa domanda in forme diverse. Me la pone un genitore in fondo alla sala dopo il culto, a voce bassa, come se si vergognasse di chiederla. Me&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="al-wrap" data-key="amore-copre-prefazione">
+<div class="al-player"><audio loading="lazy" controls="controls" preload="metadata" src="C:\Users\Postazione\Documents\Publii\sites\scuola-biblica-kairos\input\media\files\01-prefazione.mp3"></audio>
+<div class="al-velocita">Velocità:<select class="al-speed">
+<option value="0.8">0.8x</option>
+<option value="0.9">0.9x</option>
+<option selected="selected" value="1">1x</option>
+<option value="1.1">1.1x</option>
+<option value="1.25">1.25x</option>
+<option value="1.5">1.5x</option>
+<option value="1.75">1.75x</option>
+<option value="2">2x</option>
+</select></div>
+</div>
+<div class="al-testo">
+<p>Ogni anno, negli ultimi giorni di ottobre, ricevo la stessa domanda in forme diverse. Me la pone un genitore in fondo alla sala dopo il culto, a voce bassa, come se si vergognasse di chiederla. Me la scrive una giovane madre in un messaggio alle 11 di sera, quando i bambini dormono e il costume da strega è appeso alla porta dell’armadio. Me la rivolge un ragazzo di 16 anni che non vuole passare per bigotto davanti ai compagni, ma nemmeno sentirsi in colpa davanti a Dio: «Ma Halloween si può festeggiare o no?»</p>
+<p>Per molto tempo ho risposto con una frase breve, perché la domanda arrivava sempre nel momento sbagliato, sulla porta della chiesa, con la gente che aspettava di uscire. Ma una domanda così non si esaurisce in una frase. Dentro ci sono la storia di una notte antica, la realtà del mondo invisibile, il modo in cui si cresce un figlio dentro una cultura che lo forma ogni giorno, il coraggio di essere diversi senza diventare sgradevoli. Questo libro nasce da un breve scritto sulle radici spirituali di Halloween che ho voluto allargare fino a farne un discorso completo, con lo spazio che l’argomento merita.</p>
+<p>Troverai qui la storia, raccontata con onestà anche là dove smentisce le versioni più comode. Troverai la Scrittura, che resta l’unica autorità a cui rispondo e alla quale ti chiedo di rispondere anche tu. Troverai un’analisi di ciò che questa festa è diventata e di ciò che nasconde, e troverai domande, molte, alla fine di ogni capitolo, perché nessuno può decidere per te che cosa entrerà nella tua casa.</p>
+<p>Non troverai un elenco di divieti da applicare in fretta. Non troverai nemmeno la paura, che è una cattiva consigliera e una pessima maestra. Il credente non ha bisogno di tremare davanti all’oscurità: ha bisogno di riconoscerla, e di ricordare chi ha già vinto.</p>
+<p>So che tra i lettori ci saranno fratelli e sorelle che hanno scelto diversamente da come suggerisco io, e che lo hanno fatto in buona fede, con la Bibbia aperta e la coscienza limpida. A loro chiedo una cosa sola: di leggere fino in fondo prima di giudicare. Scoprirai che il libro non chiede a nessuno di condannare il vicino di casa. Chiede a ciascuno di sapere che cosa sta facendo, e perché.</p>
+<p>Il tono cambierà, pagina dopo pagina. Comincia piano, perché le cose grandi si avvicinano piano. Diventerà più fermo, poi più urgente, perché a un certo punto il discorso lo esige. Quando sentirai la voce alzarsi, non pensare che io stia gridando contro di te. Sto parlando accanto a te, nella stessa direzione, verso la stessa porta.</p>
+<p>Ora, prima che suoni il campanello, accendi la luce sul portico. Poi apri la Parola e leggi.</p>
+</div>
+<nav class="al-nav"><a href="../amore-copre/">Indice</a> <a href="../amore-copre-introduzione/">Successivo →<br><small>Introduzione. La porta e la lampada</small></a></nav>
+<script>
+(function(){
+ var w=document.currentScript.parentNode, a=w.querySelector('audio'), s=w.querySelector('.al-speed'), k='audiolibro:'+w.getAttribute('data-key');
+ function get(n){try{return localStorage.getItem(k+n)}catch(e){return null}}
+ function put(n,v){try{localStorage.setItem(k+n,v)}catch(e){}}
+ function del(n){try{localStorage.removeItem(k+n)}catch(e){}}
+ var t=parseFloat(get(':t')), r=parseFloat(get(':r'))||1;
+ s.value=String(r);
+ a.addEventListener('loadedmetadata',function(){
+  a.playbackRate=r;
+  if(t>5 && t<a.duration-5){a.currentTime=t;}
+ });
+ var last=0;
+ a.addEventListener('timeupdate',function(){var n=Date.now(); if(n-last>3000){last=n; put(':t',a.currentTime);}});
+ a.addEventListener('pause',function(){put(':t',a.currentTime);});
+ a.addEventListener('ended',function(){del(':t');});
+ s.addEventListener('change',function(){r=parseFloat(s.value); a.playbackRate=r; put(':r',r);});
+})();
+</script>
+</div>
+            ]]>
+        </content>
+    </entry>
+</feed>
