@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Dr. Vincenzo Maggio</title>
-    <link href="https://drvincenzomaggio-wq.github.io/SITO/feed.xml" rel="self" />
-    <link href="https://drvincenzomaggio-wq.github.io/SITO" />
+    <link href="https://sito-42b.pages.dev/feed.xml" rel="self" />
+    <link href="https://sito-42b.pages.dev" />
     <updated>2026-11-04T16:26:59+01:00</updated>
     <author>
         <name>Dr. Vincenzo Maggio</name>
     </author>
-    <id>https://drvincenzomaggio-wq.github.io/SITO</id>
+    <id>https://sito-42b.pages.dev</id>
 
     <entry>
         <title>Prefazione. Prima che suoni il campanello</title>
         <author>
             <name>Dr. Vincenzo Maggio</name>
         </author>
-        <link href="https://drvincenzomaggio-wq.github.io/SITO/amore-copre-prefazione.html"/>
-        <id>https://drvincenzomaggio-wq.github.io/SITO/amore-copre-prefazione.html</id>
+        <link href="https://sito-42b.pages.dev/amore-copre-prefazione.html"/>
+        <id>https://sito-42b.pages.dev/amore-copre-prefazione.html</id>
             <category term="La notte che non è un gioco"/>
 
         <updated>2026-11-04T16:20:23+01:00</updated>
